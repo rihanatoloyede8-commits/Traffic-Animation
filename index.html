@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Animation</title>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+.images{
+    position: relative;
+}
+.sky{
+    width: 1400px;
+    height: 280px;
+}
+.illuscene{
+    position: absolute;
+    width: 1350px;
+    height: 280px;
+    top: 60px;
+}
+.bird1{
+    position: absolute;
+    bottom: 140px;
+    right: 390px;
+    height: 120px;
+    width: 200px;
+}
+
+.mydiv{
+    position: absolute;
+    width: 1500px;
+    height: 14px;
+    /* background-color: lime; */
+    top: 295px;
+}
+
+.yourdev{
+    position: absolute;
+    width: 1500px;
+    height: 50px;
+    background-color: black;
+    top: 450px;
+}
+
+.airplane{ animation: airplane infinite linear 3s 1s;
+    position: absolute;
+    bottom: 160px;
+
+}
+
+
+@keyframes airplane{
+    100%{
+        transform: translateX(-500px);
+    }
+    0%{
+        transform: translateX(1500px);
+    }
+}
+
+.circlebird{
+    position: absolute;
+    bottom: 140px;
+    right: 1000px;
+    height: 120px;
+    width: 180px;
+}
+
+.road{
+    position: absolute;
+    width: 1400px;
+    height: 140px;
+    top: 310px;
+}
+
+.heli{
+    animation: heli infinite linear 5s 1s;
+position: absolute;
+/* bottom: 150px; */
+top: 30px;
+width: 200px;
+}
+
+@keyframes heli{
+    100%{
+        transform: translateX(-500px);
+
+    }
+
+    0%{ transform: translateX(1500px);
+
+    }
+}
+
+.P1{
+    position: absolute;
+    top: 380px;
+    left: 100px;
+    width: 80px;
+    height: 105px;
+
+}
+
+
+
+
+.P2{
+    position: absolute;
+    top: 380px;
+    left: 470px;
+    width: 80px;
+    height: 105px;
+
+}
+
+.P3{
+    position: absolute;
+    top: 380px;
+    left: 1000px;
+    width: 80px;
+    height: 105px;
+
+}
+
+
+.P4{
+    position: absolute;
+    top: 380px;
+    left: 1200px;
+    width: 80px;
+    height: 105px;
+
+}
+
+.oneway{
+    position: absolute;
+    top: 320px;
+    left:220px ;
+    width: 200px;
+    height: 200px;
+}
+
+.oneway2{
+    position: absolute;
+    top: 320px;
+    left:1010px ;
+    width: 200px;
+    height: 200px;
+}
+
+.yellowguy{
+
+    animation: yellowguy infinite linear 15s 1s;
+    position: absolute;
+    top: 170px;
+    height: 138px;
+    
+    
+}
+
+@keyframes yellowguy{
+
+    100%{
+        transform: translateX(-80px);
+    }
+
+    0%{
+        transform: translateX(1600px);
+    }
+}
+
+
+.finegirl{
+    animation: finegirl infinite linear 15s 2s;
+    position: absolute;
+    top: 200px;
+    height: 130px;
+}
+
+
+@keyframes finegirl{
+
+    0%{
+        transform: translateX(-70px);
+    }
+
+    100%{
+        transform: translateX(1600px);
+    }
+}
+
+.yellowtaxi{
+    animation: yellowtaxi infinite linear 8s 1s;
+    position: absolute;
+    width: 160px;
+    height: 159px;
+}
+
+@keyframes yellowtaxi{
+    100%{
+        transform: translateX(-300px);
+    }
+    0%{
+        transform: translateX(3000px);
+    }
+}
+
+.bike{
+    animation: bike infinite linear 6s  2s;
+position: absolute;
+width: 160px;
+height: 140px;
+top: 280px;
+}
+  
+
+  @keyframes bike{
+    100%{ transform: translateX(-300px);
+    }
+  0%{
+    transform: translateX(3000px);
+  }
+  }
+
+
+  .truck{
+    animation: truck infinite linear 5s 1s;
+    position: absolute;
+    height: 180px;
+    top: 320px;
+  }
+
+
+  @keyframes truck{
+    100%{
+        transform: translateX(-300px);
+
+    }
+    0%{
+        transform: translateX(3000px);
+    }
+  }
+
+  .road2{
+    position: absolute;
+    top: 500px;
+    width: 1400px;
+    height: 120px;
+  }
+
+  .sportcar{
+    animation: sportcar infinite linear 4s 1s;
+  position: absolute;
+  height: 60px;
+  top: 500px;
+  }
+
+  @keyframes sportcar{
+    100%{
+        transform: translateX(2000px);
+    }
+
+    0%{
+        transform: translateX(-200px);
+    }
+  }
+
+  .bicycle{
+    animation: bicycle infinite linear 10s 2s;
+    position: absolute;
+    height: 90px;
+    /* width: f; */
+    top: 530px;
+  }
+
+  @keyframes bicycle {
+    100%{transform: translateX(2000px);
+    }
+
+    0%{
+        transform: translateX(-250px);
+    }
+  }
+
+  .yt{
+    animation: yt infinite linear 5s 1s;
+    position: absolute;
+    top: 530px;
+    height: 100px;
+  }
+  @keyframes yt{
+    100%{ transform: translateX(2000px);}
+    0%{
+        transform: translateX(-250px);
+    }
+  }
+
+  .movingbus{
+    animation: movingbus infinite linear 8s 2s;
+    position: absolute;
+    top: 490px;
+    height: 170px;
+  }
+
+
+@keyframes movingbus{
+    100%{
+        transform: translateX(2000px);
+    }
+    0%{
+        transform: translateX(-250px);
+    }
+}
+  
+
+  
+</style>
+</head>
+<body>
+    <div class="images">
+        <img src="c:\Users\user\Downloads\Document\imgi_1_skye.jpg" alt="" class="sky">
+   <img src="c:\Users\user\Downloads\Document\imgi_2_ilustrasion-scene (1).png" alt="" class="illuscene">
+<img src="c:\Users\user\Downloads\Document\imgi_17_0-142_bird-silhouette-flying-silhouette-birds-vector-png-transparent-removebg-preview.png" alt="" class="bird1">    
+<img src="c:\Users\user\Downloads\Document\imgi_3_Aeroplane_2-removebg-preview.png" alt="" class="airplane">
+<img src="c:\Users\user\Downloads\Document\imgi_18_birds-circling-in-the-sky-vector-21599876-removebg-preview (1).png" alt="" class="circlebird">
+<img src="c:\Users\user\Downloads\Document\imgi_5_road.jfif" alt="" class="road">
+<img src="c:\Users\user\Downloads\Document\imgi_4_air-helicopter-removebg-preview.png" alt="" class="heli">
+<img src="c:\Users\user\Downloads\Document\imgi_12_206-2064127_selux-discera-street-lights-pinterest-of-modern-street-street-light-removebg-preview.png" alt="" class="P1">
+<img src="c:\Users\user\Downloads\Document\imgi_10_back-view-man-waving-hand-free-vector-removebg-preview (1).png" alt="" class="yellowguy">
+<img src="c:\Users\user\Downloads\Document\imgi_9_pedestrian-color-vector-removebg-preview.png" alt="" class="finegirl">
+
+<img src="c:\Users\user\Downloads\Document\imgi_8_download__4_-removebg-preview (1).png" alt="" class="yellowtaxi">
+<img src="c:\Users\user\Downloads\Document\imgi_6_download__3_-removebg-preview (1) (1).png" alt="" class="bike">
+<img src="c:\Users\user\Downloads\Document\imgi_7_download-removebg-preview (4) (1).png" alt="" class="truck">
+
+
+<img src="c:\Users\user\Downloads\Document\imgi_12_206-2064127_selux-discera-street-lights-pinterest-of-modern-street-street-light-removebg-preview.png" alt="" class="P2">
+<img src="c:\Users\user\Downloads\Document\imgi_12_206-2064127_selux-discera-street-lights-pinterest-of-modern-street-street-light-removebg-preview.png" alt="" class="P3">
+<img src="c:\Users\user\Downloads\Document\imgi_12_206-2064127_selux-discera-street-lights-pinterest-of-modern-street-street-light-removebg-preview.png" alt="" class="P4">
+
+
+<img src="c:\Users\user\Downloads\Document\imgi_11_one_way-removebg-preview.png" alt="" class="oneway">
+<img src="c:\Users\user\Downloads\Document\imgi_11_one_way-removebg-preview.png" alt="" class="oneway2">
+
+
+<img src="c:\Users\user\Downloads\Document\imgi_5_road.jfif" alt="" class="road2">
+
+<img src="c:\Users\user\Downloads\Document\imgi_14_sport car (2).png" alt="" class="sportcar">
+<img src="c:\Users\user\Downloads\Document\imgi_13_download-removebg-preview (5).png" alt="" class="bicycle">
+<!-- <img src="c:\Users\user\Downloads\Document\imgi_15_download__1_-removebg-preview (2).png" alt="" class="yt"> -->
+ <img src="c:\Users\user\Downloads\Document\imgi_15_download__1_-removebg-preview (2) (1).png" alt="" class="yt">
+<img src="c:\Users\user\Downloads\Document\imgi_16_download__1_-removebg-preview (3) (1).png" alt="" class="movingbus">
+</div>
+
+
+<div class="mydiv">
+
+</div>
+
+<div class="yourdev">
+
+</div>
+</body>
+</html>
